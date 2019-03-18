@@ -4,19 +4,35 @@ heroImage: /hero.png
 actionText: 马上开始 →
 actionLink: /guide/
 features:
-- title: 简明优先
-  details: 对以 markdown 为中心的项目结构，做最简化的配置，帮助你专注于创作。
-- title: Vue 驱动
-  details: 享用 Vue + webpack 开发环境，在 markdown 中使用 Vue 组件，并通过 Vue 开发自定义主题。
-- title: 性能高效
-  details: VuePress 将每个页面生成为预渲染的静态 HTML，每个页面加载之后，然后作为单页面应用程序(SPA)运行。
+- title: 多样
+  details: 组件多样化，让你减少开发UI烦恼。
+- title: 基于Vue
+  details: 基于Vue，生态圈更强大。
+- title: 效率
+  details: 简单配置，立即生效，缩短开发周期。
 footer: MIT Licensed | Copyright © 2018-present leeao82.com
 ---
 
 ### 快步上手
 
-```node
+```js
 # 安装
 npm i leevueplugin
 
+# 使用
+import Vue from 'vue';
+import {LeePasswordInput,LeeInputNumber,LeeButton,LeePay,LeeBadge,LeeAlert,LeePagination}
+ from 'leevueplugin'
+import App from './App.vue';
+Vue.use(LeePasswordInput)
+Vue.use(LeeInputNumber)
+Vue.use(LeeButton)
+Vue.use(LeePay)
+Vue.use(LeeBadge)
+Vue.use(LeeAlert)
+Vue.use(LeePagination)
+new Vue({
+  el: '#app',
+  render: h => h(App)
+});
 ```

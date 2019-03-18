@@ -6,5 +6,21 @@
 npm i leevueplugin
 ```
 ### 使用
+```js
+import Vue from 'vue';
+import {LeePasswordInput,LeeInputNumber,LeeButton,LeePay,LeeBadge,LeeAlert,LeePagination}
+ from 'leevueplugin'
+import App from './App.vue';
+Vue.use(LeePasswordInput)
+Vue.use(LeeInputNumber)
+Vue.use(LeeButton)
+Vue.use(LeePay)
+Vue.use(LeeBadge)
+Vue.use(LeeAlert)
+Vue.use(LeePagination)
+new Vue({
+  el: '#app',
+  render: h => h(App)
+});
 
-<img src="./img/20161222155857.gif">
+```

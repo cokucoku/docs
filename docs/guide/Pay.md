@@ -8,7 +8,28 @@
 <lee-pay :visible="kg" :config="config" @close="close" @change="change"></lee-pay>
 ```
 ```js
-
+<script>
+export default {
+    data() {
+        return {
+           kg:false,
+           config:{
+            bg:'#46bd87',
+            choose: ['微信支付', '支付宝', '花呗支付', '农业银行', '窝窝收款']
+           },
+           pays:''
+        };
+    },
+    methods: {
+        close(value){
+            this.kg=value
+        },
+        change(value){
+            this.pays=value
+        }
+    }
+}
+</script>
 ```
 ### 属性
 

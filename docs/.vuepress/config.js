@@ -16,7 +16,7 @@ module.exports = {
                 '/guide/Alert',
                 '/guide/Badge',
                 '/guide/PasswordInput',
-                '/guide/LeePay'
+                '/guide/Pay'
             ]
         }],
         sidebarDepth: 1, //这样h2,h3都能提取到
