@@ -3,7 +3,7 @@ module.exports = {
     description: 'VUE组件库',
     base: '/',
     themeConfig: {
-         logo:'/psb.jpg',
+         logo:'/logo.png',
         nav: [{ text: '指南', link: '/guide/' }, { text: '关于', link: '/about/' }, { text: 'Github', link: 'https://github.com/cokucoku' }],
         sidebar: [{
             title: '指南',
@@ -16,7 +16,10 @@ module.exports = {
                 '/guide/Alert',
                 '/guide/Badge',
                 '/guide/PasswordInput',
-                '/guide/Pay'
+                '/guide/Pay',
+                '/guide/TimeLine',
+                '/guide/Collapse',
+                '/guide/Notification',
             ]
         }],
         sidebarDepth: 1, //这样h2,h3都能提取到

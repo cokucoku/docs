@@ -65,7 +65,8 @@ export default {
     transition: opacity .2s;
     margin:15px 0;
 }
-.lee-alert-icon{width: 16px;height: 16px;margin-right: 8px;border-radius: 50%;color: #fff;text-align: center;font-style: normal;}
+.lee-alert-icon{width: 16px;height: 16px;margin-right: 8px;border-radius: 50%;color: #fff;text-align: center;font-style: normal;position: relative;}
+.lee-alert-icon:before{font-size: 16px;height: 16px;line-height: 16px;display: block}
 .lee-alert-success .lee-alert-icon{background-color: #67c23a}
 .lee-alert-success .lee-alert-icon:before{content: "√";}
 .lee-alert-info .lee-alert-icon{background-color: #909399}
@@ -73,7 +74,7 @@ export default {
 .lee-alert-warning .lee-alert-icon{background-color: #e6a23c}
 .lee-alert-warning .lee-alert-icon:before{content: "!";}
 .lee-alert-error .lee-alert-icon{background-color: #f56c6c}
-.lee-alert-error .lee-alert-icon:before{content: "x";}
+.lee-alert-error .lee-alert-icon:before{content: "x";line-height: 12PX;}
 .lee-alert-success {
     background-color: #f0f9eb;
     color: #67c23a

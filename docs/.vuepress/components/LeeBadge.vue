@@ -1,5 +1,5 @@
 <template>
-  <a>{{title}}<span :style="[styleObject]">{{info}}</span></a>
+  <a :href="href">{{title}}<span :style="[styleObject]">{{info}}</span></a>
 </template>
 <script>
 export default {
@@ -23,6 +23,10 @@ export default {
         color: {
             type: String,
             default: '#f00' //默认default
+        },
+        href: {
+            type: String,
+            default: '' //默认default
         }
     }
 };

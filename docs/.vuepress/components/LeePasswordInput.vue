@@ -44,12 +44,8 @@ export default {
             code: ''
         };
     },
-    // model: {
-    //     prop: 'visible',
-    //     event: 'change'
-    // },
     props: {
-        visible: {
+        value: {
             type: Boolean,
             default: false
         },
@@ -80,11 +76,11 @@ export default {
 
         },
         close() {
-            this.$emit('close', false)
+            this.$emit('input', false)
         }
     },
     watch: {
-        visible: {
+        value: {
             immediate: true,
             handler(value) {
                 this.isshow=value

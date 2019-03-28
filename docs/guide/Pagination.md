@@ -1,11 +1,14 @@
-# Pagination 分页
-### 示例：
-<P></P>
-<lee-pagination v-model="cur" :page-size="20" layout="prev, pager, next" :total="150" @change="curpage">
+# :book: Pagination 分页
+#### 基础用法：
+<div class="leeblock">
+    <div class="leesource">
+        <lee-pagination v-model="cur" :page-size="20" layout="pager" :total="250" @change="curpage">
 </lee-pagination>
-
+    </div>
+<lee-code>
+    
 ```html
-<lee-pagination  :page-size="20" layout="prev, pager, next" :total="150"
+<lee-pagination  :page-size="20" layout="pager" :total="250"
  v-model="cur" @change="curpage">
 </lee-pagination>
 ```
@@ -25,6 +28,42 @@
     }
 </script>
 ```
+</lee-code>
+</div>
+
+#### 翻页：
+
+<div class="leeblock">
+    <div class="leesource">
+        <lee-pagination v-model="cur" :page-size="20" layout="prev,pager,next" :total="250" @change="curpage">
+</lee-pagination>
+    </div>
+<lee-code>
+    
+```html
+<lee-pagination  :page-size="20" layout="prev, pager, next" :total="250"
+ v-model="cur" @change="curpage">
+</lee-pagination>
+```
+```js
+<script>
+    export default {
+        data() {
+         return {
+            cur:5,//页数为第5页
+        }
+       },
+        methods:{
+            curpage(val) {
+             console.log('当前页:'+val);
+           }
+        }
+    }
+</script>
+```
+</lee-code>
+</div>
+
 ### 属性
 
 参数|说明|类型|可选值|默认值
@@ -43,10 +82,16 @@ change|当前页改变事件|value
     export default {
         data() {
          return {
+            show:false,
             cur:5,//页数为第1页
         }
        },
         methods:{
+            enter(el) {
+                var h= el.scrollHeight
+                el.style.setProperty('--h', h + 'px')
+
+            },
             curpage(val) {
              console.log('当前页:'+val);
            },

@@ -1,0 +1,17 @@
+<div class="leeblock">
+    <div class="leesource">
+        <lee-button>默认按钮</lee-button>
+        <lee-button type="primary" @click="click">主要按钮</lee-button>
+        <lee-button type="success">成功按钮</lee-button>
+        <lee-button type="info">信息按钮</lee-button>
+        <lee-button type="warning">警告按钮</lee-button>
+        <lee-button type="danger">危险按钮</lee-button>
+    </div>
+    <div class="leeallcode">
+        <transition name="leetran" @enter="enter">
+            <div class="leecode" v-show="show">
+            </div>
+        </transition>
+        <div class="btnexp" @click="show=!show"><i :class="{up:show}"></i><span v-if="!show">显示代码</span><span v-else>隐藏代码</span></div>
+    </div>
+</div>

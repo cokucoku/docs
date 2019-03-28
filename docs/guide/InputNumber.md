@@ -1,8 +1,11 @@
-# InputNumber 计数器
+# :rocket: InputNumber 计数器
 ### 示例：
-<p></p>
-<lee-input-number v-model="num" @change="handleChange" :min="3" :max="16"></lee-input-number>
-
+<div class="leeblock">
+    <div class="leesource">
+        <lee-input-number v-model="num" @change="handleChange" :min="3" :max="16"></lee-input-number>
+    </div>
+<lee-code>
+    
 ```html
 <lee-input-number :min="3" :max="16" 
 v-model="num" @change="handleChange"></lee-input-number>
@@ -23,6 +26,9 @@ v-model="num" @change="handleChange"></lee-input-number>
     }
 </script>
 ```
+</lee-code>
+</div>
+
 ### 属性
 
 参数|说明|类型|可选值|默认值

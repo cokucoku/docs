@@ -23,7 +23,7 @@ export default {
         };
     },    
     props: {
-        visible: {
+        value: {
             type: Boolean,
             default: false
         },
@@ -43,11 +43,11 @@ export default {
         },
         chuli() {
             this.$emit('change',this.tempay)
-            this.$emit('close',false)
+            this.$emit('input',false)
         }
     },
     watch: {
-        visible: {
+        value: {
             immediate: true,
             handler(value) {
                 this.show = value
