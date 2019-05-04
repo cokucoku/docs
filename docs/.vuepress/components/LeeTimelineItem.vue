@@ -100,15 +100,6 @@ export default {
 };
 </script>
 <style scoped>
-* {
-    margin: 0px;
-    padding: 0px;
-    list-style: none
-}
-
-.lee-timeline {
-    position: relative;
-}
 
 .lee-timeline li {
     padding-bottom: 10px;
@@ -179,46 +170,6 @@ export default {
     color: #999
 }
 
-.lee-timeline .more {
-    font-size: 14px;
-    color: #3eaf7c;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    line-height: 30px;
-    text-align: center;
-    position: absolute;
-    cursor: pointer;
-    left: 50%;
-    bottom: -6px;
-    z-index: 44
-}
-
-.lee-timeline .more:before {
-    content: "";
-    width: 7px;
-    height: 7px;
-    border-color: #3eaf7c;
-    position: absolute;
-    border-style: solid;
-    border-width: 0 0 2px 2px;
-    transform: rotate(-45deg);
-    left: 50%;
-    margin-left: -4px;
-    top: 50%;
-    margin-top: -6px
-}
-
-.lee-timeline .mark {
-    position: absolute;
-    width: calc(100% - 28px);
-    height: 150px;
-    bottom: 0px;
-    right: 0px;
-    background: linear-gradient(transparent, #fff);
-    z-index: 33
-}
 
 .lee-timeline .contentw .themetwo .timestamp {
     padding-bottom: 15px;
