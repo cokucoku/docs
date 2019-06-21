@@ -1,4 +1,4 @@
-# :moneybag: Badge 徽章
+# Badge 徽章
 ### 示例：
 <div class="leeblock">
     <div class="leesource">

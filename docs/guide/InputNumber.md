@@ -1,4 +1,4 @@
-# :rocket: InputNumber 计数器
+# InputNumber 计数器
 ### 示例：
 <div class="leeblock">
     <div class="leesource">

@@ -1,4 +1,4 @@
-# :stopwatch: TimeLine 时间线
+# TimeLine 时间线
 
 ### 更多下拉：
 <div class="leeblock">

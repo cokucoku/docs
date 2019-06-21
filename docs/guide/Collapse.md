@@ -1,4 +1,4 @@
-# :bell: Collapse 折叠面板
+# Collapse 折叠面板
 ### 基础用法：
 <div class="leeblock">
     <div class="leesource">

@@ -1,4 +1,4 @@
-# :book: Notification 通知
+# Notification 通知
 手机通知提醒消息。
 #### 基础用法：
 <div class="leeblock">

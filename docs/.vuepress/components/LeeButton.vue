@@ -29,7 +29,7 @@ export default {
     }
 };
 </script>
-<style>
+<style scoped>
 .lee-button {
     display: inline-block;
     line-height: 1;

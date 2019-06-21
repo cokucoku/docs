@@ -20,6 +20,8 @@ module.exports = {
                 '/guide/TimeLine',
                 '/guide/Collapse',
                 '/guide/Notification',
+                '/guide/Radio',
+                '/guide/Switch',
             ]
         }],
         sidebarDepth: 1, //这样h2,h3都能提取到

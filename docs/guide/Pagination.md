@@ -1,4 +1,4 @@
-# :book: Pagination 分页
+# Pagination 分页
 #### 基础用法：
 <div class="leeblock">
     <div class="leesource">

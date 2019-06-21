@@ -1,4 +1,4 @@
-# :bell: Alert 警告框
+# Alert 警告框
 ### 示例：
 <div class="leeblock">
     <div class="leesource">

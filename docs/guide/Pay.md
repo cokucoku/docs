@@ -1,4 +1,4 @@
-# :moneybag: Pay 支付选择
+# Pay 支付选择
 ### 示例：
 <div class="leeblock">
     <div class="leesource">

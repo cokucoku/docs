@@ -1,4 +1,4 @@
-# :dart: PasswordInput 密码输入框
+# PasswordInput 密码输入框
 ### 示例：
 <div class="leeblock">
     <div class="leesource">
