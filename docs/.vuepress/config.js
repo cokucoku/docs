@@ -22,6 +22,7 @@ module.exports = {
                 '/guide/Notification',
                 '/guide/Radio',
                 '/guide/Switch',
+                '/guide/Select',
             ]
         }],
         sidebarDepth: 1, //这样h2,h3都能提取到
