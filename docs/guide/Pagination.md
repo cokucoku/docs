@@ -68,10 +68,10 @@
 
 参数|说明|类型|可选值|默认值
 :------|:------|:------|:------|:------
+v-model|绑定值（当前页码）|Number|1,2,3,4...|--
 page-size|每页记录条数|Number|1,2,3,4...|10
 layout|配置显示|String|prev,pager,next|pager
 total|总记录条数|Number|1,2,3,4...|10
-cur|当前页|Number|1,2,3,4...|1
 ### 事件
 
 事件名称|说明|回调参数
@@ -83,15 +83,10 @@ change|当前页改变事件|value
         data() {
          return {
             show:false,
-            cur:5,//页数为第1页
+            cur:1,//页数为第1页
         }
        },
         methods:{
-            enter(el) {
-                var h= el.scrollHeight
-                el.style.setProperty('--h', h + 'px')
-
-            },
             curpage(val) {
              console.log('当前页:'+val);
            },

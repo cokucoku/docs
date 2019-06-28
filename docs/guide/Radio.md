@@ -112,8 +112,9 @@
 
 参数|说明|类型|可选值|默认值
 :------|:------|:------|:------|:------
+v-model|绑定选项值|Number|--|--
 type|单选框类型|string|primary,success,info,warning,danger|--
-size|单选框尺寸|string|s,m,l|--
+size|单选框尺寸|string|s,m,l|s
 <script>
     export default {
         data() {

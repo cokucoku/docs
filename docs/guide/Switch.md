@@ -84,8 +84,9 @@
 
 参数|说明|类型|可选值|默认值
 :------|:------|:------|:------|:------
-size|尺寸|s,m,l|m
-color|颜色|十六进制颜色值|#46bd87
+v-model|绑定开关打开关闭|Boolean|true,false|--
+size|尺寸|s,m,l|m|m
+color|颜色|十六进制颜色值|#46bd87|s
 <script>
     export default {
         data() {

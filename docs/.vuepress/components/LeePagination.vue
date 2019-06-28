@@ -72,15 +72,18 @@ export default {
             type: Number,
             default: 10 //默认default
         },
-        curpage: {
+        value: {
             type: Number,
             default: 1 //默认default
         }
     },
     watch: {
-        curpage: {
+        value: {
             immediate: true,
             handler(value) {
+                if(value<=0){
+                    value=1
+                }
                 this.cur = value
             }
         }

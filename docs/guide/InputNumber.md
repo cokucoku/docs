@@ -33,7 +33,7 @@ v-model="num" @change="handleChange"></lee-input-number>
 
 参数|说明|类型|可选值|默认值
 :------|:------|:------|:------|:------
-num|数量值|Number|1,2,3,4...|1
+v-model|绑定值（计数器值）|Number|1,2,3,4...|--
 min|最小值|Number|-1,-2,3,4...|-Infinity
 max|最大值|Number|1,2,3,4...|Infinity
 ### 事件
