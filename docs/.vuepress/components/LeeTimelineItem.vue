@@ -1,5 +1,5 @@
 <template>
-    <li v-show="result" :id="xh">
+    <li v-show="result" :key="xh">
         <div class="timeline"></div>
         <div class="timedot" :class="{large:size,animate:timeline.animate}" :style="{background:color}"></div>
         <div class="contentw">

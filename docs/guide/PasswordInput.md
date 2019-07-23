@@ -1,10 +1,11 @@
 # PasswordInput 密码输入框
 ### 示例：
+<lee-password-input v-model="kg" @change="yourpassword" :pass="password"></lee-password-input>
 <div class="leeblock">
     <div class="leesource">
         <lee-button type="primary"  @click="show" v-if="!kg">打开密码输入框</lee-button>
 <div style="position:relative;width:40%;padding-bottom: 80%" v-if="kg">
-<lee-password-input v-model="kg" @change="yourpassword" :pass="password"></lee-password-input>
+
 </div>
     </div>
 <lee-code>

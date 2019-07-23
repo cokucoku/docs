@@ -1,5 +1,7 @@
 <template>
-    <div class="lee-radio" :class="{check:radio.value==label}" @click="selc(label)"><slot></slot></div>
+    <div class="lee-radio" :class="{check:radio.value==label}" @click="selc(label)">
+        <slot></slot>
+    </div>
 </template>
 <script>
 export default {

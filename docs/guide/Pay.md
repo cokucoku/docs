@@ -1,9 +1,9 @@
 # Pay 支付选择
 ### 示例：
+<lee-pay v-model="kg" @change="change" :config="config"></lee-pay>
 <div class="leeblock">
     <div class="leesource">
         <lee-button type="success" @click="show">选择支付方式:</lee-button> 你选择了：{{pays}}
-<lee-pay v-model="kg" @change="change" :config="config"></lee-pay>
     </div>
 <lee-code>
 

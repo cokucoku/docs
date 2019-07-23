@@ -165,6 +165,7 @@ export default {
     height: 40px;
     width: 100%;
     padding: 0 30px 0 15px;
+    box-sizing: border-box;
     outline: none;
     cursor: pointer;
 }

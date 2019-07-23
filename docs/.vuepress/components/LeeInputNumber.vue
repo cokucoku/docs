@@ -24,11 +24,11 @@ export default {
         },
         min: {
             type: Number,
-            default: 1 //默认1
+            default: -Infinity //默认1
         },
         max: {
             type: Number,
-            default: 1 //默认1
+            default: Infinity //默认1
         }
     },
     methods: {
