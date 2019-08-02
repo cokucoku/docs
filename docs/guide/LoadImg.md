@@ -5,15 +5,28 @@
 <div class="leeblock">
     <div class="leesource">
       <lee-input-number v-model="cur" :min="1"></lee-input-number>
-      <lee-loadimg url="https://picsum.photos/v2/list" imgurl="download_url" :page="cur" :limit="50"></lee-loadimg>
+      <lee-loadimg url="https://picsum.photos/v2/list" imgurl="download_url" :page="cur" :limit="5"></lee-loadimg>
     </div>
 <lee-code>
     
 ```html
-
+<lee-loadimg
+url="https://picsum.photos/v2/list"
+imgurl="download_url"
+:page="cur"
+:limit="5">
+</lee-loadimg>
 ```
 ```html
-
+<script>
+    export default {
+        data() {
+              return {
+                cur:1
+              }
+          }
+    }
+</script>
 ```
 </lee-code>
 </div>
