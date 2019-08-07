@@ -1,5 +1,5 @@
 <template>
-    <div @click="chuli()"  class="lee-switch" :class="[size,{check:value}]" :style="'--color:'+color"></div>
+    <div @click="chuli()"  class="lee-switch" :class="[size,{check:value}]" :style="'color:'+color"></div>
 </template>
 <script>
 export default {
@@ -33,7 +33,7 @@ export default {
 </script>
 <style scoped>
 .lee-switch{background: #ddd;cursor: pointer;position: relative;transition: all .3s;}
-.lee-switch.check{background: var(--color)}
+.lee-switch.check{background: currentColor;}
 .lee-switch:before{background: #fff;border-radius: 100%;position: absolute; content: '';left: 2px;top: 2px;transition: all .3s}
 .lee-switch.s{width:28px;height: 14px;border-radius: 7px;}
 .lee-switch.s:before{width: 10px;height: 10px;}

@@ -13,13 +13,18 @@
         <li><lee-loading type="ball-circle"></lee-loading><div class="type">type="ball-circle"</div></li>
         <li><lee-loading type="ball-wave"></lee-loading><div class="type">type="ball-wave"</div></li>
         <li><lee-loading type="take-turn"></lee-loading><div class="type">type="take-turn"</div></li>
-        <li><lee-loading type="google"></lee-loading><div class="type">type="google"</div></li>
+        <!-- <li><lee-loading type="google"></lee-loading><div class="type">type="google"</div></li> -->
         <li><lee-loading></lee-loading><div class="type">type="ball-pulse"</div></li>
         <li><lee-loading type="radar-2"></lee-loading><div class="type">type="radar-2"</div></li>
         <li><lee-loading type="radar-1"></lee-loading><div class="type">type="radar-1"</div></li>
         <li><lee-loading type="spinner"></lee-loading><div class="type">type="spinner"</div></li>
         <li><lee-loading type="progress"></lee-loading><div class="type">type="progress"</div></li>
         <li><lee-loading type="zebra-crossing"></lee-loading><div class="type">type="zebra-crossing"</div></li>
+        <li><lee-loading type="flip-block"></lee-loading><div class="type">type="flip-block"</div></li>
+        <li><lee-loading type="box"></lee-loading><div class="type">type="box"</div></li>
+        <li><lee-loading type="swim-block"></lee-loading><div class="type">type="swim-block"</div></li>
+        <li><lee-loading type="croll-block"></lee-loading><div class="type">type="croll-block"</div></li>
+        <li><lee-loading type="wave"></lee-loading><div class="type">type="wave"</div></li>
       </ul>
     </div>
 <lee-code>

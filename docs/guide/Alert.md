@@ -2,15 +2,15 @@
 ### 示例：
 <div class="leeblock">
     <div class="leesource">
-        <lee-alert title="成功提示的文案" type="success" :closable="false" show-icon></lee-alert>
+        <lee-alert title="成功提示的文案" type="success" closeable show-icon></lee-alert>
         <lee-alert title="消息提示的文案" type="info" show-icon></lee-alert>
-        <lee-alert title="警告提示的文案" type="warning" show-icon @close="hello"></lee-alert>
+        <lee-alert title="警告提示的文案" type="warning" show-icon closeable @close="hello"></lee-alert>
         <lee-alert title="错误提示的文案" type="error" show-icon></lee-alert>
     </div>
 <lee-code>
 
 ```html
-<lee-alert title="成功提示的文案" type="success" :closable="false" show-icon></lee-alert>
+<lee-alert title="成功提示的文案" type="success" :closeable="false" show-icon></lee-alert>
 <lee-alert title="消息提示的文案" type="info"></lee-alert>
 <lee-alert title="警告提示的文案" type="warning" @close="hello"></lee-alert>
 <lee-alert title="错误提示的文案" type="error"></lee-alert>
@@ -40,7 +40,7 @@
 :------|:------|:------|:------|:------
 title|提示消息|String|--|--
 type|提示框类型|String|success,info,warning,error|warning
-closable|能否关闭|Boolean|true,false|Infinity
+closeable|能否关闭|Boolean|true,false|false
 show-icon|显示图标|Boolean|-|false
 ### 事件
 

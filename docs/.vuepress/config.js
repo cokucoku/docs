@@ -16,6 +16,7 @@ module.exports = {
                 '/guide/Collapse',
                 '/guide/Dialog',
                 '/guide/InputNumber',
+                '/guide/ImgEffect',
                 '/guide/LoadImg',
                 '/guide/Loading',
                 '/guide/Notification',
@@ -28,6 +29,7 @@ module.exports = {
                 '/guide/Steps',
                 '/guide/TimeLine',
                 '/guide/ToolTip',
+                '/guide/TagCloud',
             ]
         }],
         sidebarDepth: 1, //这样h2,h3都能提取到

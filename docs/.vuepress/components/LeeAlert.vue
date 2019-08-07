@@ -1,9 +1,9 @@
 <template>
     <transition name="fade">
-        <div :class="['lee-alert','lee-alert-'+type]" v-if="isShow">
+        <div :class="['lee-alert','lee-alert-'+thetype]" v-if="isShow">
             <i class="lee-alert-icon" v-if="showIcon"></i>
             <div class="lee-alert-content">{{title}}</div>
-            <i class="lee-alert-close" v-if="closable" @click="hide"></i>
+            <i class="lee-alert-close" v-if="closeable" @click="hide"></i>
         </div>
     </transition>
 </template>
@@ -12,7 +12,8 @@ export default {
     name: 'LeeAlert',
     data() {
         return {
-            isShow: true
+            isShow: true,
+            thetype:'warning'
 
         }
     },
@@ -20,10 +21,24 @@ export default {
         isShow: {
             immediate: true,
             handler(value) {
-                value = this.closable
+                value = this.closeable
 
             }
-        }
+        },
+        type: {
+            immediate: true,
+            handler(value) {
+                var types=['success','error','info','warning']
+                var fi=types.filter(function(el) {
+                    return el.indexOf(value)>-1;
+                })
+                if(fi.length<1){
+                    this.thetype="warning"
+                }else{
+                    this.thetype=value
+                }
+            }
+        },
     },
     methods: {
         hide(){
@@ -34,15 +49,15 @@ export default {
     props: {
         title: {
             type: String,
-            default: '' //默认default
+            default: '提示文字' //默认default
         },
         type: {
             type: String,
             default: 'warning' //默认default
         },
-        closable: {
+        closeable: {
             type: Boolean,
-            default: true //默认default
+            default: false //默认default
         },
         showIcon: {
             type: Boolean,

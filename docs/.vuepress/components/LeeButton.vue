@@ -1,6 +1,8 @@
 <template>
-    <button type="button" :class="['lee-button','lee-button-'+type]" v-on="buttonListeners">
-        <span><slot></slot></span>
+    <button type="button" :class="['lee-button','lee-button-'+thetype]" v-on="buttonListeners">
+        <span>
+            <slot></slot>
+        </span>
     </button>
 </template>
 <script>
@@ -8,8 +10,24 @@ export default {
     name: 'LeeButton',
     data() {
         return {
-
+            thetype: 'default'
         };
+    },
+    watch: {
+        type: {
+            immediate: true,
+            handler(value) {
+                var types = ['primary', 'success', 'info', 'warning','danger']
+                var fi = types.filter(function(el) {
+                    return el.indexOf(value) > -1;
+                })
+                if (fi.length < 1) {
+                    this.thetype = "default"
+                } else {
+                    this.thetype = value
+                }
+            }
+        }
     },
     props: {
         type: {

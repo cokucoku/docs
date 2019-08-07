@@ -1,5 +1,5 @@
 <template>
-    <div class="lee-step" :style="'flex-basis: '+stepw+';--color:'+step.color" v-if="step.direction==='vertical'">
+    <div class="lee-step" :style="'flex-basis: '+stepw+';color:'+step.color" v-if="step.direction==='vertical'">
         <div class="status">
             <div class="ico" :class="{active:step.active>=xh}"><span v-if="step.finish==='finish'||step.active<xh">{{xh}}</span><div v-else class="gou"></div></div>
             <div class="line" :class="{hide:xh>=total,active:step.active>=xh+1}"></div>
@@ -9,7 +9,7 @@
             <div class="ms" :class="{active:step.active>=xh}"><slot></slot></div>
         </div>
     </div>
-    <div class="lee-step" :style="'flex-basis: '+stepw+';--color:'+step.color" v-else-if="step.direction==='horizontal'&&step.center">
+    <div class="lee-step" :style="'flex-basis: '+stepw+';color:'+step.color" v-else-if="step.direction==='horizontal'&&step.center">
         <div class="status">
             <div class="ico" :class="{active:step.active>=xh}"><span v-if="step.finish==='finish'||step.active<xh">{{xh}}</span><div v-else class="gou"></div></div>
             <div class="line" :class="{hide:xh>=total,active:step.active>=xh+1}"></div>
@@ -19,7 +19,7 @@
             <div class="ms" :class="{active:step.active>=xh}"><slot></slot></div>
         </div>
     </div>
-    <div class="lee-step" :style="'flex-basis: '+stepw+';--color:'+step.color" v-else-if="step.direction==='horizontal'&&xh<total">
+    <div class="lee-step" :style="'flex-basis: '+stepw+';color:'+step.color" v-else-if="step.direction==='horizontal'&&xh<total">
         <div class="status">
             <div class="ico" :class="{active:step.active>=xh}"><span v-if="step.finish==='finish'||step.active<xh">{{xh}}</span><div v-else class="gou"></div></div>
             <div class="line" :class="{hide:xh>=total,active:step.active>=xh+1}"></div>
@@ -29,7 +29,7 @@
             <div class="ms" :class="{active:step.active>=xh}"><slot></slot></div>
         </div>
     </div>
-    <div class="lee-step" :style="'flex-basis: '+stepw+';max-width:'+maxw+';--color:'+step.color" v-else-if="step.direction==='horizontal'&&xh>=total">
+    <div class="lee-step" :style="'flex-basis: '+stepw+';max-width:'+maxw+';color:'+step.color" v-else-if="step.direction==='horizontal'&&xh>=total">
         <div class="status">
             <div class="ico" :class="{active:step.active>=xh}"><span v-if="step.finish==='finish'||step.active<xh">{{xh}}</span><div v-else class="gou"></div></div>
             <div class="line" :class="{hide:xh>=total,active:step.active>=xh+1}"></div>
@@ -107,7 +107,7 @@ export default {
 }
 
 .lee-step .status .line.active {
-    background: var(--color)
+    background: currentColor;
 }
 
 .lee-step .status .line.hide {
@@ -129,12 +129,12 @@ export default {
 }
 
 .lee-step .status .ico.active {
-    color: var(--color);
-    border-color: var(--color)
+    color: currentcolor;
+    border-color: currentcolor
 }
 .lee-step .status .ico.active .gou{position: relative;width: 100%;height: 100%;transform:translateX(-14%) rotate(-45deg);left: 50%;}
-.lee-step .status .ico.active .gou:before{content: '';width: 2px;height: 20%;background:var(--color);position: absolute;left: 0 }
-.lee-step .status .ico.active .gou:after{content: '';height: 2px;width: 60%;background:var(--color);position: absolute;left: 0;top: 20%; }
+.lee-step .status .ico.active .gou:before{content: '';width: 2px;height: 20%;background:currentcolor;position: absolute;left: 0 }
+.lee-step .status .ico.active .gou:after{content: '';height: 2px;width: 60%;background:currentcolor;position: absolute;left: 0;top: 20%; }
 
 .lee-steps.fill  .lee-step .status .ico.active .gou:before,.lee-steps.fill  .lee-step .status .ico.active .gou:after{background:#fff;}
 
@@ -146,7 +146,7 @@ export default {
 .lee-step .ms{font-size: 12px;padding-bottom:1.2em; color: #aaa;}
 
 .lee-step .text.active,.lee-step .ms.active {
-    color: var(--color);
+    color: currentcolor;
 }
 
 .lee-steps.vertical .lee-step .status{width: 24px;}
@@ -154,7 +154,7 @@ export default {
 .lee-steps.vertical .lee-step .main{flex-grow: 1;padding-left: 10px;}
 .lee-steps.vertical .lee-step .main .text{line-height: 24px;padding-bottom: 8px}
 
-.lee-steps.fill  .lee-step .status .ico.active{background: var(--color);color: #fff;border-color: var(--color);}
+.lee-steps.fill  .lee-step .status .ico.active{background: currentcolor;border-color: currentcolor;}
 .lee-steps.center .main{text-align: center;}
 .lee-steps.center .status .ico{left: 50%;margin-left: -12px;}
 .lee-steps.center .status .line{left: 50%;}
