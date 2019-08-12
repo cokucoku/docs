@@ -57,7 +57,7 @@
 
 <div class="leeblock">
     <div class="leesource">
-          <lee-steps :active="active3" color="#46bd87" center fill  >
+          <lee-steps :active="active3" color="#46bd87" center fill finish="success">
               <lee-step title="多样">组件多样化，让你减少开发UI烦恼</lee-step>
               <lee-step title="基于Vue">基于Vue，生态圈更强大。</lee-step>
               <lee-step title="效率">简单配置，立即生效，缩短开发周期。</lee-step>
@@ -70,7 +70,7 @@
 <lee-code>
     
 ```html
-<lee-steps :active="active" color="#46bd87" center>
+<lee-steps :active="active" color="#46bd87" center fill finish="success">
     <lee-step title="多样">组件多样化，让你减少开发UI烦恼</lee-step>
     <lee-step title="基于Vue">基于Vue，生态圈更强大。</lee-step>
     <lee-step title="效率">简单配置，立即生效，缩短开发周期。</lee-step>

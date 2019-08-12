@@ -17,7 +17,7 @@ module.exports = {
                 '/guide/Dialog',
                 '/guide/InputNumber',
                 '/guide/ImgEffect',
-                '/guide/LoadImg',
+                //'/guide/LoadImg',
                 '/guide/Loading',
                 '/guide/Notification',
                 '/guide/Pagination',

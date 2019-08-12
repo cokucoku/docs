@@ -172,7 +172,6 @@
 :------|:------|:------|:------|:------
 v-model|绑定初始选值|String|--|--
 filterable|是否可搜索|Boolean|true,false|false
-lists|供搜索数据(有filterable时提供)|Array|--|--
 
 ### Option 属性
 
