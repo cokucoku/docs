@@ -132,6 +132,7 @@ export default {
     color: currentcolor;
     border-color: currentcolor
 }
+.lee-step .status .ico.active span{color: #fff}
 .lee-step .status .ico.active .gou{position: relative;width: 100%;height: 100%;transform:translateX(-14%) rotate(-45deg);left: 50%;}
 .lee-step .status .ico.active .gou:before{content: '';width: 2px;height: 20%;background:currentcolor;position: absolute;left: 0 }
 .lee-step .status .ico.active .gou:after{content: '';height: 2px;width: 60%;background:currentcolor;position: absolute;left: 0;top: 20%; }

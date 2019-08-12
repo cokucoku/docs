@@ -1,4 +1,4 @@
-# TagCloud 标签云 <Badge text="news" type="error"/>
+# TagCloud 标签云
 
 ### 实例展示：
 <div class="leeblock">

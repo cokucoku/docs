@@ -1,5 +1,5 @@
 <template>
-    <div class="lee-img-effect" :class="theeffect">
+    <div class="lee-img-effect" :class="theeffect" :style="'height:'+height">
         <div class="control" v-if="effect=='change'||effect=='slideleft'">
             <div class="arrow arrowleft" @click="prev"></div>
             <div class="arrow arrowright" @click="next"></div>
@@ -119,6 +119,10 @@ export default {
             type: String,
             default: 'accordion'
         },
+        height: {
+            type: String,
+            default: '300px'
+        }
     },
     watch: {
         cur: {
@@ -156,9 +160,9 @@ export default {
     padding: 0px;background: #000
 }
 .lee-img-effect.ninegrid ul {
-    flex-wrap: wrap;overflow: hidden;
+    flex-wrap: wrap;overflow: hidden;height: 100%
 }
-.lee-img-effect.ninegrid ul li{width: 33.33%;padding-bottom: 33.33%;position: relative;border: solid 1px rgba(255, 255, 255, 1);border-right: none;border-bottom: none;cursor: pointer;overflow: hidden;box-sizing: border-box;}
+.lee-img-effect.ninegrid ul li{width: 33.33%;position: relative;border: solid 1px rgba(255, 255, 255, 1);border-right: none;border-bottom: none;cursor: pointer;overflow: hidden;box-sizing: border-box;}
 .lee-img-effect.ninegrid ul li h2{position: absolute;border-bottom: none;width: 100%;text-align: center;top: 100%;white-space: nowrap;color: #fff;transform: translateY(-50%);padding:0px;margin:0px;z-index: 3;opacity: 0;transition: all .5s}
 .lee-img-effect.ninegrid ul li img{position: absolute;z-index: 1;width: 100%;height: 100%;object-fit: cover;transition: all .5s}
 

@@ -1,4 +1,4 @@
-# Loading 加载 <Badge text="news" type="error"/>
+# Loading 加载
 加载数据时显示动效。
 ### 基础示例：
 

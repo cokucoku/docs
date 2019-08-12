@@ -1,4 +1,4 @@
-# Select 选择器 <Badge text="news" type="error"/>
+# Select 选择器
 当选项过多时，使用下拉菜单展示并选择内容。
 ### 基础示例：
 <div class="leeblock">
@@ -57,7 +57,7 @@
 ### 可搜索：
 <div class="leeblock">
     <div class="leesource">
-        <lee-select v-model="value2" :lists="options2" filterable placeholder="请选择">
+        <lee-select v-model="value2"  filterable placeholder="请选择">
             <lee-option
             v-for="item in options2"
             :key="item.value"

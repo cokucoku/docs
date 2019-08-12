@@ -1,4 +1,4 @@
-# Dialog 对话框 <Badge text="news" type="error"/>
+# Dialog 对话框
 在保留当前页面状态的情况下，告知用户并承载相关操作。
 ### 基础示例：
 <lee-dialog title="提示信息" v-model="isshow1" effect="scale">水电费水电费</lee-dialog>

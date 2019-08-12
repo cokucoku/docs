@@ -1,4 +1,4 @@
-# Tooltip 文字提示 <Badge text="news" type="error"/>
+# Tooltip 文字提示
 
 常用于展示鼠标 hover 时的提示信息。
 ### 基础示例：
@@ -28,9 +28,9 @@
 <lee-code>
     
 ```html
-<lee-tooltip color="#f60" content="上边提示文字" position="top">
+<lee-tool-tip color="#f60" content="上边提示文字" position="top">
    <lee-button>上边</lee-button>
-</lee-tooltip>
+</lee-tool-tip>
 ```
 </lee-code>
 </div>

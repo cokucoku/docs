@@ -1,21 +1,21 @@
-# LoadImg 加载图片 <Badge text="news" type="error"/>
+# LoadImg 加载图片
 加载图片
 ### 基础示例：
 
 <div class="leeblock">
     <div class="leesource">
       <lee-input-number v-model="cur" :min="1"></lee-input-number>
-      <lee-loadimg url="https://picsum.photos/v2/list" imgurl="download_url" :page="cur" :limit="5"></lee-loadimg>
+      <lee-load-img url="https://picsum.photos/v2/list" imgurl="download_url" :page="cur" :limit="5"></lee-load-img>
     </div>
 <lee-code>
     
 ```html
-<lee-loadimg
+<lee-load-img
 url="https://picsum.photos/v2/list"
 imgurl="download_url"
 :page="cur"
 :limit="5">
-</lee-loadimg>
+</lee-load-img>
 ```
 ```html
 <script>

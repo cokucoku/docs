@@ -7,7 +7,7 @@
 </template>
 <script>
 export default {
-    name: 'LeeLoadimg',
+    name: 'LeeLoadImg',
     inheritAttrs: false,
     data() {
         return {

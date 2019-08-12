@@ -1,4 +1,4 @@
-# ImgEffect 图片效果 <Badge text="news" type="error"/>
+# ImgEffect 图片效果
 ### 手风琴效果：
 <div class="leeblock">
     <div class="leesource">
@@ -193,6 +193,7 @@
 :------|:------|:------|:------|:------
 config|图片配置信息|Object|--|--
 effect|图片切换效果|String|accordion,slideleft,change,ninegrid|accordion
+height|图片高度|String|--|300px
 <script>
     export default {
         data() {
@@ -304,7 +305,7 @@ effect|图片切换效果|String|accordion,slideleft,change,ninegrid|accordion
     }
 </script>
 <style scoped>
-.lee-img-effect.accordion{height: 300px;}
+/*.lee-img-effect.accordion{height: 300px;}
 .lee-img-effect.change{height: 400px;}
-.lee-img-effect.slideleft{height: 300px;}
+.lee-img-effect.slideleft{height: 300px;}*/
 </style>

@@ -9,7 +9,7 @@
         <transition name="my">
             <ul class="lee-options" v-show="exp">
                 <slot></slot>
-                <li v-if="filterable&&nodata">没有数据</li>
+                <li v-if="nodata<1&&!lists">没有数据</li>
             </ul>
         </transition>
     </div>
@@ -20,8 +20,6 @@ export default {
     inheritAttrs: false,
     data() {
         return {
-            nodata: false,//這個數據是為了搜索沒數據時提示沒有數據
-            lists: [], //重新整合數組
             exp: false,
             isReadonly: false,
             search: '', //input LABEL值
@@ -38,13 +36,6 @@ export default {
         document.addEventListener('click', function() {
             _this.exp = false
         });
-        var slots = this.$slots.default
-        slots.map(function(el) {
-            _this.lists.push({
-                value: el.child.value,
-                label: el.child.label
-            })
-        })
     },
     provide() {
         return {
@@ -68,9 +59,30 @@ export default {
                     el.exp = false
                 }
             })
+
+
         }
     },
     computed: {
+        nodata() {
+            var _this = this
+            var fi = this.lists.filter(function(el) {
+                return el.label.toLowerCase().indexOf(_this.search.toLowerCase()) > -1;
+            });
+            return fi.length > 0
+
+        },
+        label() {
+            var _this = this
+            var a = this.lists.filter(function(el) {
+                return el.value == _this.value
+            });
+            if (a.length > 0) {
+                return a[0].label
+            } else {
+                return ''
+            }
+        }
     },
     props: {
         value: {
@@ -81,71 +93,54 @@ export default {
             type: String,
             default: ''
         },
+        lists: {
+            type: Array,
+            default: function() {
+                return []
+            }
+        },
         filterable: {
             type: Boolean,
             default: false
         }
     },
     watch: {
-         exp: {
-            immediate: true,
-            handler(value) {
-                this.$nextTick(function() {
-                    if (this.filterable) {
-                        if (value) {
-                            if (this.search == '') {
-                                this.placeh = this.placeholder
-                                return
-                            }
-                            this.placeh = this.search
-                            this.search = ''
-                        }
-                    }
-                })
-            }
-        },
         filterable: {
             immediate: true,
             handler(value) {
                 this.isReadonly = !value
             }
         },
+        exp: {
+            immediate: true,
+            handler(value) {
+                this.$nextTick(function() {
+                    if (this.filterable) {
+                        if (value) {
+                            this.search = ''
+                            if (this.label == '') {
+                                this.placeh = this.placeholder
+                                return
+                            }
+                            this.placeh = this.label
+                        } else {
+                            this.search = this.label
+                            this.placeh = this.placeholder
+                        }
+                    }
+                })
+            }
+        },
+        label: {
+            immediate: true,
+            handler(value) {
+                this.search = value
+            }
+        },
         placeholder: {
             immediate: true,
             handler(value) {
                 this.placeh = value
-            }
-        },
-        search: {
-            immediate: true,
-            handler(value) {
-                var _this = this
-                this.$nextTick(function() {
-                    var fi = this.lists.filter(function(el) {
-                        return el.label.toLowerCase().indexOf(value.toLowerCase()) > -1;
-                    });
-                   if(fi.length>0){
-                    _this.nodata=false
-                   }else{
-                    _this.nodata=true
-                   }
-                })
-            }
-        },
-        value: {
-            immediate: true,
-            handler(value) {
-                var _this = this
-                this.$nextTick(function() {
-                    var fi = _this.lists.filter(function(el) {
-                        return el.value == value;
-                    });
-                    if (fi.length > 0) {
-                        _this.search = fi[0].label
-                    } else {
-                        _this.search = ''
-                    }
-                })
             }
         }
     }

@@ -1,4 +1,4 @@
-# Steps 步骤条 <Badge text="news" type="error"/>
+# Steps 步骤条
 引导用户按照流程完成任务的分步导航条，可根据实际应用场景设定步骤，步骤不得少于2步。
 ### 基础示例：
 
@@ -57,7 +57,7 @@
 
 <div class="leeblock">
     <div class="leesource">
-          <lee-steps :active="active3" color="#46bd87" center fill  finish="success">
+          <lee-steps :active="active3" color="#46bd87" center fill  >
               <lee-step title="多样">组件多样化，让你减少开发UI烦恼</lee-step>
               <lee-step title="基于Vue">基于Vue，生态圈更强大。</lee-step>
               <lee-step title="效率">简单配置，立即生效，缩短开发周期。</lee-step>

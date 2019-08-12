@@ -1,7 +1,5 @@
 <template>
-    <li @click="sel(value)" :class="{selected:value==select.value}" v-show="have">
-        <slot v-if="haveslot"></slot>
-        <span v-else>{{label}}</span></li>
+    <li @click="sel(value)" :class="{selected:value==select.value}" v-show="have"><slot v-if="haveslot"></slot><span v-else>{{label}}</span></li>
 </template>
 <script>
 export default {

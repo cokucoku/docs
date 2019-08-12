@@ -8,7 +8,7 @@ npm i leevueplugin
 ### 使用
 ```js
 import Vue from 'vue';
-import {LeeAlert,LeeBadge,LeeButton,LeeCollapse,LeeCollapseItem,LeeInputNumber,LeeNotification,LeeNotificationItem,LeePagination,LeePasswordInput,LeePay,LeeRadio,LeeRadioGroup,LeeSwitch,LeeTimeline,LeeTimelineItem}
+import {LeeAlert,LeeBadge,LeeButton,LeeCollapse,LeeCollapseItem,LeeDialog,LeeInputNumber,LeeImgEffect,LeeLoadImg,LeeLoading,LeeNotification,LeeNotificationItem,LeePagination,LeePasswordInput,LeePay,LeeRadio,LeeRadioGroup,LeeSwitch,LeeSelect,LeeOption,LeeStep,LeeSteps,LeeTimeline,LeeTimelineItem,LeeToolTip,LeeTagCloud}
  from 'leevueplugin'
 import App from './App.vue';
 Vue.use(LeeAlert)
@@ -16,7 +16,11 @@ Vue.use(LeeBadge)
 Vue.use(LeeButton)
 Vue.use(LeeCollapse)
 Vue.use(LeeCollapseItem)
+Vue.use(LeeDialog)
 Vue.use(LeeInputNumber)
+Vue.use(LeeImgEffect)
+Vue.use(LeeLoadImg)
+Vue.use(LeeLoading)
 Vue.use(LeeNotification)
 Vue.use(LeeNotificationItem)
 Vue.use(LeePagination)
@@ -25,8 +29,14 @@ Vue.use(LeePay)
 Vue.use(LeeRadio)
 Vue.use(LeeRadioGroup)
 Vue.use(LeeSwitch)
+Vue.use(LeeSelect)
+Vue.use(LeeOption)
+Vue.use(LeeStep)
+Vue.use(LeeSteps)
 Vue.use(LeeTimeline)
 Vue.use(LeeTimelineItem)
+Vue.use(LeeToolTip)
+Vue.use(LeeTagCloud)
 new Vue({
   el: '#app',
   render: h => h(App)

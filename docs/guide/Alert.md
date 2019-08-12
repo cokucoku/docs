@@ -10,21 +10,20 @@
 <lee-code>
 
 ```html
-<lee-alert title="成功提示的文案" type="success" :closeable="false" show-icon></lee-alert>
-<lee-alert title="消息提示的文案" type="info"></lee-alert>
-<lee-alert title="警告提示的文案" type="warning" @close="hello"></lee-alert>
-<lee-alert title="错误提示的文案" type="error"></lee-alert>
+<lee-alert title="成功提示的文案" type="success" closeable show-icon></lee-alert>
+<lee-alert title="消息提示的文案" type="info" show-icon></lee-alert>
+<lee-alert title="警告提示的文案" type="warning" show-icon closeable @close="hello"></lee-alert>
+<lee-alert title="错误提示的文案" type="error" show-icon></lee-alert>
 ```
 ```js
 <script>
     export default {
         data() {
          return {
-            
         }
        },
         methods:{
-            hello() {
+           hello() {
             alert('你要关闭提示么？');
            }
         }
