@@ -30,6 +30,8 @@ module.exports = {
                 '/guide/TimeLine',
                 '/guide/ToolTip',
                 '/guide/TagCloud',
+                '/guide/Tag',
+                '/guide/Transfer',
             ]
         }],
         sidebarDepth: 1, //这样h2,h3都能提取到

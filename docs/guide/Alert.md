@@ -2,18 +2,22 @@
 ### 示例：
 <div class="leeblock">
     <div class="leesource">
-        <lee-alert title="成功提示的文案" type="success" closeable show-icon></lee-alert>
+        <lee-alert title="消息提示的文案" type="primary" closeable show-icon></lee-alert>
+        <lee-alert title="成功提示的文案" type="success" show-icon></lee-alert>
+        <lee-alert title="成功提示的文案" type="leecolor" show-icon></lee-alert>
         <lee-alert title="消息提示的文案" type="info" show-icon></lee-alert>
         <lee-alert title="警告提示的文案" type="warning" show-icon closeable @close="hello"></lee-alert>
-        <lee-alert title="错误提示的文案" type="error" show-icon></lee-alert>
+        <lee-alert title="错误提示的文案" type="danger" show-icon></lee-alert>
     </div>
 <lee-code>
 
 ```html
-<lee-alert title="成功提示的文案" type="success" closeable show-icon></lee-alert>
-<lee-alert title="消息提示的文案" type="info" show-icon></lee-alert>
-<lee-alert title="警告提示的文案" type="warning" show-icon closeable @close="hello"></lee-alert>
-<lee-alert title="错误提示的文案" type="error" show-icon></lee-alert>
+<lee-alert title="消息提示的文案" type="primary" closeable show-icon></lee-alert>
+        <lee-alert title="成功提示的文案" type="success" show-icon></lee-alert>
+        <lee-alert title="成功提示的文案" type="leecolor" show-icon></lee-alert>
+        <lee-alert title="消息提示的文案" type="info" show-icon></lee-alert>
+        <lee-alert title="警告提示的文案" type="warning" show-icon closeable @close="hello"></lee-alert>
+        <lee-alert title="错误提示的文案" type="danger" show-icon></lee-alert>
 ```
 ```js
 <script>

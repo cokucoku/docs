@@ -24,7 +24,7 @@ import Vue from 'vue';
 import {LeeAlert,LeeBadge,LeeButton,LeeCollapse,LeeCollapseItem,LeeDialog,LeeInputNumber,
 	LeeImgEffect,LeeLoadImg,LeeLoading,LeeNotification,LeeNotificationItem,LeePagination,
 	LeePasswordInput,LeePay,LeeRadio,LeeRadioGroup,LeeSwitch,LeeSelect,LeeOption,LeeStep,
-	LeeSteps,LeeTimeline,LeeTimelineItem,LeeToolTip,LeeTagCloud}
+	LeeSteps,LeeTimeline,LeeTimelineItem,LeeToolTip,LeeTagCloud,LeeTranfer}
  from 'leevueplugin'
 import App from './App.vue';
 Vue.use(LeeAlert)
@@ -53,6 +53,7 @@ Vue.use(LeeTimeline)
 Vue.use(LeeTimelineItem)
 Vue.use(LeeToolTip)
 Vue.use(LeeTagCloud)
+Vue.use(LeeTranfer)
 new Vue({
   el: '#app',
   render: h => h(App)

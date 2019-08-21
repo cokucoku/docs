@@ -17,7 +17,7 @@ export default {
         type: {
             immediate: true,
             handler(value) {
-                var types = ['primary', 'success', 'info', 'warning','danger']
+                var types = ['primary', 'success', 'info', 'warning','danger','disabled','leecolor']
                 var fi = types.filter(function(el) {
                     return el.indexOf(value) > -1;
                 })
@@ -71,7 +71,12 @@ export default {
     font-size: 14px;
     border-radius: 4px;
 }
-
+.lee-button-disabled {
+    cursor: not-allowed;
+    background: #f5f7fa;
+    border: 1px solid #dcdfe6;
+    color: #c0c4cc;
+}
 .lee-button-primary {
     color: #fff;
     background-color: #409eff;
@@ -83,7 +88,11 @@ export default {
     background-color: #67c23a;
     border-color: #67c23a;
 }
-
+.lee-button-leecolor {
+    color: #fff;
+    background-color: #46bd87;
+    border-color: #46bd87;
+}
 .lee-button-info {
     color: #fff;
     background-color: #909399;

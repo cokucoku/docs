@@ -28,12 +28,12 @@ export default {
         type: {
             immediate: true,
             handler(value) {
-                var types=['success','error','info','warning']
+                var types=['primary','success','danger','info','warning','leecolor']
                 var fi=types.filter(function(el) {
                     return el.indexOf(value)>-1;
                 })
                 if(fi.length<1){
-                    this.thetype="warning"
+                    this.thetype="info"
                 }else{
                     this.thetype=value
                 }
@@ -53,7 +53,7 @@ export default {
         },
         type: {
             type: String,
-            default: 'warning' //默认default
+            default: 'info' //默认default
         },
         closeable: {
             type: Boolean,
@@ -82,16 +82,24 @@ export default {
 }
 .lee-alert-icon{width: 16px;height: 16px;margin-right: 8px;border-radius: 50%;color: #fff;text-align: center;font-style: normal;position: relative;}
 .lee-alert-icon:before{font-size: 16px;height: 16px;line-height: 16px;display: block}
+.lee-alert-leecolor .lee-alert-icon{background-color: #46bd87}
+.lee-alert-leecolor .lee-alert-icon:before{content: "√";}
 .lee-alert-success .lee-alert-icon{background-color: #67c23a}
 .lee-alert-success .lee-alert-icon:before{content: "√";}
 .lee-alert-info .lee-alert-icon{background-color: #909399}
 .lee-alert-info .lee-alert-icon:before{content: "i";}
 .lee-alert-warning .lee-alert-icon{background-color: #e6a23c}
 .lee-alert-warning .lee-alert-icon:before{content: "!";}
-.lee-alert-error .lee-alert-icon{background-color: #f56c6c}
-.lee-alert-error .lee-alert-icon:before{content: "x";line-height: 12PX;}
+.lee-alert-danger .lee-alert-icon{background-color: #f56c6c}
+.lee-alert-danger .lee-alert-icon:before{content: "x";line-height: 12PX;}
+.lee-alert-primary .lee-alert-icon{background-color: #409eff}
+.lee-alert-primary .lee-alert-icon:before{content: "i";}
+.lee-alert-leecolor {
+    background-color: rgba(70,189,135,.1);
+    color: #46bd87
+}
 .lee-alert-success {
-    background-color: #f0f9eb;
+    background-color:rgba(103,194,58,.1);
     color: #67c23a
 }
 
@@ -101,13 +109,17 @@ export default {
 }
 
 .lee-alert-warning {
-    background-color: #fdf6ec;
+    background-color: rgba(230,162,60,.1);
     color: #e6a23c
 }
 
-.lee-alert-error {
-    background-color: #fef0f0;
+.lee-alert-danger {
+    background-color: rgba(245,108,108,.1);
     color: #f56c6c
+}
+.lee-alert-primary {
+    background-color: rgba(64,158,255,.1);
+    color: #409eff
 }
 
 .lee-alert .lee-alert-content {
