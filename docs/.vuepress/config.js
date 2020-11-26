@@ -3,10 +3,10 @@ module.exports = {
     description: 'VUE组件库',
     base: '/',
     themeConfig: {
-         logo:'/logo.png',
-        nav: [{ text: '指南', link: '/guide/' }, { text: '关于', link: '/about/' }, { text: 'Github', link: 'https://github.com/cokucoku' }],
+        logo: '/logo.png',
+        nav: [{ text: '组件', link: '/guide/' }, { text: '关于', link: '/about/' }, { text: 'Github', link: 'https://github.com/cokucoku' }],
         sidebar: [{
-            title: '指南',
+            title: '组件',
             collapsable: false,
             children: [
                 '/guide/',
@@ -14,15 +14,18 @@ module.exports = {
                 '/guide/Badge',
                 '/guide/Button',
                 '/guide/Collapse',
+                '/guide/Cells',
+                '/guide/CascadeSelect',
                 '/guide/Dialog',
                 '/guide/InputNumber',
                 '/guide/ImgEffect',
-                //'/guide/LoadImg',
-                '/guide/Loading',
+                '/guide/LoadImg',
+                '/guide/menuTree',
                 '/guide/Notification',
                 '/guide/Pagination',
                 '/guide/PasswordInput',
                 '/guide/Pay',
+                '/guide/Progress',
                 '/guide/Radio',
                 '/guide/Switch',
                 '/guide/Select',
@@ -35,7 +38,7 @@ module.exports = {
             ]
         }],
         sidebarDepth: 1, //这样h2,h3都能提取到
-        lastUpdated: '最后更新', // string | boolean
+        lastUpdated: '最后更新' // string | boolean
 
     },
     markdown: {

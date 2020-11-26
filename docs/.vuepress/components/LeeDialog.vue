@@ -1,7 +1,7 @@
 <template>
     <div class="lee-dialog">
         <transition name="fade">
-            <div class="mark" v-show="isshow" @click="close"></div>
+            <div class="mark" v-show="isshow"></div>
         </transition>
         <transition :name="effect" @enter="enter" @after-enter="afterenter" @leave="leave" @after-leave="afterleave">
             <div class="dialog" v-show="isshow">
@@ -10,8 +10,8 @@
                     <slot></slot>
                 </div>
                 <div class="other">
-                    <lee-button @click="close">取消</lee-button>
-                    <lee-button type="primary" @click="close">确定</lee-button>
+                    <lee-button @click="cancel">取消</lee-button>
+                    <lee-button type="primary" @click="certain">确定</lee-button>
                 </div>
             </div>
         </transition>
@@ -39,9 +39,15 @@ export default {
 
     },
     methods: {
-        close() {
+        cancel() {
             this.isshow = false
             this.$emit('input', false)
+            this.$emit('cancel',{flag:false})
+        },
+        certain() {
+            this.isshow = false
+            this.$emit('input', false)
+            this.$emit('certain',{flag:true})
         },
         enter(el) {
             var h = el.scrollHeight
@@ -95,10 +101,11 @@ export default {
     z-index: 999;
     position: fixed;
     left: 50%;
-    top: 30%;
+    top: 50%;
     border-radius: 6px;
     margin-left: -300px;
-  transition: all .3s;
+    transition: all .3s;
+    margin-top: var(--h)
 }
 
 .lee-dialog .dialog .title {
@@ -146,7 +153,7 @@ export default {
 .slideDown-enter,
 .slideDown-leave-to {
     opacity: 0;
-    transform: translateY(-16%);
+    transform: translateY(-100%);
 }
 
 .slideDown-enter-to,
@@ -156,7 +163,7 @@ export default {
 .slideUp-enter,
 .slideUp-leave-to {
     opacity: 0;
-    transform: translateY(16%);
+    transform: translateY(100%);
 }
 
 .slideUp-enter-to,
