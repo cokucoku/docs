@@ -17,7 +17,7 @@
 ```html
 <lee-dialog title="提示信息" v-model="isshow1" effect="scale">水电费水电费</lee-dialog>
 <lee-dialog title="警告信息" v-model="isshow2" effect="slideDown">这是一段信息</lee-dialog>
-<lee-dialog title="警告信息" v-model="isshow3" effect="scale" @cancel="cancel" @certain="certain">
+<lee-dialog title="警告信息" v-model="isshow3" effect="scale" @cancel="cancel" @certain="certain">你确定要删除</lee-dialog>
 <lee-button type="primary" @click="open1">打开dialog</lee-button>
       <lee-button type="success" @click="open2">打开dialog</lee-button>
       <lee-cells title="todoList" style="padding-top: 15px">

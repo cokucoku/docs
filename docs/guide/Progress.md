@@ -33,7 +33,7 @@ border-radius|圆角大小|number|-|0
 active-color|已选择的进度条的颜色|string|-|'#09BB07'
 background-color|未选择的进度条的颜色|string|-|'#EBEBEB'
 show-info|在进度条右侧显示百分比|boolean|true,false|false
-
+animate|进度条动画过程|boolean|true,false|false
 <script>
 export default {
     data() {
