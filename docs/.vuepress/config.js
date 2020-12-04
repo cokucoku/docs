@@ -20,6 +20,7 @@ module.exports = {
                 '/guide/InputNumber',
                 '/guide/ImgEffect',
                 '/guide/LoadImg',
+                '/guide/LuckyGrid',
                 '/guide/menuTree',
                 '/guide/Notification',
                 '/guide/Pagination',

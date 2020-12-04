@@ -17,7 +17,7 @@
             return {
                 level: 0,
                 xh: [],
-                arr:[],
+                arr: [],
                 filterdata: [
                     // [{
                     //     text: '福建'
@@ -42,13 +42,8 @@
             xh: {
                 immediate: true,
                 handler(value) {
-                    var _this = this
                     this.$nextTick(function () {
-                        var len = value.length
-                        //this.getdata(value)
-                        //for(var i=0;i<len;i++){
-                        this.getdata(_this.select, value)
-                        //}
+                        this.getdata(this.select)
                     })
                 }
             }
@@ -66,27 +61,20 @@
             for (var i = 0; i < level; i++) {
                 this.xh[i] = 0
             }
-            //
 
         },
         methods: {
-            getdata(data, value) {
-                let that = this
-                let xh=0;
-                //let arr = []
-                for (let i of data) {
-                    if (i.child) {
-                        that.getdata(i.child, value) // 灵魂语句
+            getdata(data) {
+                let arr=[];
+                let level=0
+                for (let i in data) {
+                    //arr.push({text:data[i].text})
+                    if (data[i].child) {
+                        this.getdata(data[i].child) // 灵魂语句
                     }
-                    this.arr.push({
-                        //text: i[value[xh]].text
-                    })
-                    this.$set(this.filterdata, xh, this.arr)
-                    xh++
+                    level++
                 }
-                for (var i = 0; i < this.level; i++) {
-                    //this.$set(this.filterdata, i, this.arr)
-                }
+                console.log(level)
             },
             setxh(inx, xh) {
                 this.$set(this.xh, inx, xh)
