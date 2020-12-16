@@ -12,7 +12,7 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m '增加时间线，折叠面板，通知'
+git commit -m '增加九宫格抽奖'
 
 # 如果你想要部署到 https://<USERNAME>.github.io
 #git push -f git@github.com:<cokucoku>/<cokucoku>.github.io.git master

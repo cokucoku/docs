@@ -42,7 +42,7 @@
 参数|说明|类型|可选值|默认值
 :------|:------|:------|:------|:------
 title|提示消息|String|--|--
-type|提示框类型|String|success,info,warning,error|warning
+type|提示框类型|String|`success`,`info`,`warning`,`error`|warning
 closeable|能否关闭|Boolean|true,false|false
 show-icon|显示图标|Boolean|-|false
 ### 事件

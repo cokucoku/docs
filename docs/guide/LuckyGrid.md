@@ -341,9 +341,47 @@
 
 参数|说明|类型|可选值|默认值
 :------|:------|:------|:------|:------
-config|配置九宫格|Object|grid，style|--
-btnConfig|配置按钮|Object|background,fonts,imgs|--
-prizes|配置礼品|Array|fonts,imgs|--
+ref|九宫格名|String|--|--
+config|配置九宫格|Object|`grid`，`style`|--
+btnConfig|配置按钮|Object|`background`,`fonts`,`imgs`|--
+prizes|配置礼品|Array|`fonts`,`imgs`|--
+
+### LuckGrid 事件
+
+事件名称|说明|回调参数
+:------|:------|:------
+start|开始抽奖事件|--
+end|抽奖结束事件|中奖索引
+
+### LuckGrid 方法
+
+方法名称|说明|参数
+:------|:------|:------
+play|抽奖方法|1-9 抽中那个索引
+
+#### config 设置
+
+参数|说明|类型|可选值|默认值
+:------|:------|:------|:------|:------
+grid|配置格子|Object|borderRadius:15,`//格子圆边值`<br>fontSize:'14px',`//字体大小`<br>defaultStyle:{<br>&nbsp;&nbsp;&nbsp;&nbsp;background:'#fff',`//初始背景色`<br>&nbsp;&nbsp;&nbsp;&nbsp;fontColor:'#DF424B',`//初始字体颜色`<br>},<br>activeStyle:{<br>&nbsp;&nbsp;&nbsp;&nbsp;background:'#fff',`//加亮背景色`<br>&nbsp;&nbsp;&nbsp;&nbsp;fontColor:'#DF424B',`//加亮字体颜色`<br>}|--
+style|配置整体|Object|width:310,`//九宫格宽度`<br>height:310,`//九宫格高度`<br>padding:20,`//九宫格内边距`<br>backgroundColor:'#ff4a4c',`//九宫格背景色`<br>backgroundImage:'/k3.png',`//九宫格背景图`<br>borderRadius:15,`//九宫格圆边`<br>gutter:5,`//格间距`<br>|--
+
+#### btnConfig 设置
+
+参数|说明|类型|可选值|默认值
+:------|:------|:------|:------|:------
+background|按钮背景色|String|'linear-gradient(270deg, #FFDCB8, #FDC689)'|--
+fonts|按钮文字|Array|{<br>text: '开始',`//按钮文字1`<br>fontColor: '#1c258e',`//按钮文字颜色`<br>top: '18%',`//按钮顶部位置`<br>fontSize:'30px'`//按钮字体大小`<br>}|--
+imgs|按钮图片|Array|{<br>src: '/active-eat.png',`//按钮图片`<br>width: '100%',`//按钮图片大小`<br>top: '18%',//按钮图片顶部位置<br>}|--
+
+#### prizes 设置
+
+参数|说明|类型|可选值|默认值
+:------|:------|:------|:------|:------
+fonts|奖品文字设置|Object|{<br>text: '草莓蛋糕',`//奖品文字`<br>top: '18%',`//奖品文字顶部位置`<br>}|--
+imgs|奖品图片设置|Array|{<br>src:'/default-eat.png',`//奖品图片`<br>activeSrc:'/active-eat.png',`//奖品加亮图片`<br>width:'100%',`//奖品图片宽度`<br>top:'0%'`//奖品图片顶部位置`<br>}|--
+
+
 <script>
     export default {
         data() {
