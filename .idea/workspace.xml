@@ -2,100 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f148097-d4fc-43e5-bf17-006ebdf1fc25" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/css/0.styles.88655cc6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/10.2d593712.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/11.ce8cca2a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/12.94a6a6ef.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/13.6279019b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/14.00ff6ed2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/15.bbaecebb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/16.791d076e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/17.9e8199a4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/18.3dd50bb4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/19.b09bc0c0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/2.3ad192f7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/20.8e4cd968.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/21.eb11a9d9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/22.fd4dd019.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/23.122d1239.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/24.fbddf4f7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/25.4987dbcf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/26.27d6ce7f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/27.3ad14bfe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/28.b7dfa27f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/29.48577c0d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/3.a1cf2ada.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/30.d0121a19.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/31.9b374823.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/32.84dcec97.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/33.ea2f8cc3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/34.dd07e767.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/35.dc7e7d84.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/36.046a6c0b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/37.f916f77d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/38.8c2e8aff.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/39.4857db3c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/4.62a3e49b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/40.a9440206.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/41.b4a7215c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/42.d4aa5c68.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/43.468ad81a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/44.2dc0e302.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/45.c7c080d8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/46.6785619c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/47.ddf0e8ec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/48.c83f3e78.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/49.748e80a9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/5.679f3708.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/50.c773e96f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/51.48be357b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/52.e8c7144a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/53.391393a1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/54.65da4710.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/55.965ca29f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/56.ed1d6d80.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/57.6914262b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/58.aac3fe1b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/59.a6e4aa87.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/6.555dbc21.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/60.3bea5a43.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/61.2410ef23.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/7.b347cf89.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/8.c0c1fc30.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/9.7bb740eb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/app.f88f06c0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Alert.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Alert.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Badge.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Badge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Button.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Button.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Cells.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Cells.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Collapse.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Collapse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Dialog.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Dialog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/ImgEffect.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/ImgEffect.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/InputNumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/InputNumber.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/LoadImg.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/LoadImg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Notification.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Notification.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Pagination.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/PasswordInput.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/PasswordInput.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Pay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Progress.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Progress.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Radio.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Radio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Select.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Select.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Steps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Switch.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Switch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Tag.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/TagCloud.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/TagCloud.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/TimeLine.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/TimeLine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/ToolTip.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/ToolTip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Transfer.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/Transfer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/guide/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/guide/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/LeeAlert.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/LeeAlert.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/LeeCollapse.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/LeeCollapse.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/LeeCollapseItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/LeeCollapseItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/LeeTransfer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/LeeTransfer.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/guide/Alert.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/Alert.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/LuckyGrid.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/LuckyGrid.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/Collapse.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/Collapse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/Transfer.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/Transfer.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -109,11 +23,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/guide/LuckyGrid.md">
+        <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCollapseItem.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCollapse.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/guide/Collapse.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="813">
-                <caret line="465" column="52" selection-start-line="465" selection-start-column="52" selection-end-line="465" selection-end-column="52" />
+              <first_editor relative-caret-position="2117">
+                <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
+                <folding>
+                  <element signature="e#1094#1953#0" />
+                  <element signature="e#1954#2153#0" />
+                  <element signature="e#3125#3994#0" />
+                  <element signature="e#3995#4192#0" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -126,6 +64,9 @@
     <findStrings>
       <find>x</find>
       <find>padding</find>
+      <find>value</find>
+      <find>delall</find>
+      <find>jg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,8 +84,15 @@
         <option value="$PROJECT_DIR$/docs/.vuepress/config.js" />
         <option value="$PROJECT_DIR$/docs/.vuepress/components/LuckGrid.vue" />
         <option value="$PROJECT_DIR$/docs/guide/LuckyGrid.md" />
-        <option value="$PROJECT_DIR$/docs/guide/Alert.md" />
         <option value="$PROJECT_DIR$/docs/.vuepress/components/LeeLuckGrid.vue" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/components/LeeAlert.vue" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/components/LeeCollapse.vue" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/components/LeeInputNumber.vue" />
+        <option value="$PROJECT_DIR$/docs/guide/Collapse.md" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/components/LeeCollapseItem.vue" />
+        <option value="$PROJECT_DIR$/docs/guide/Alert.md" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/components/LeeTransfer.vue" />
+        <option value="$PROJECT_DIR$/docs/guide/Transfer.md" />
       </list>
     </option>
   </component>
@@ -166,7 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,20 +136,29 @@
               <item name="vuepress" type="b2602c69:ProjectViewProjectNode" />
               <item name="vuepress" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name=".vuepress" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vuepress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vuepress" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="guide" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/李光发/48/html" />
+    <property name="last_opened_file_path" value="F:/leeao/vue3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="G:\vuepress\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -223,6 +179,23 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="docs:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="docs:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.docs:dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -249,18 +222,30 @@
       <workItem from="1607133535123" duration="5215000" />
       <workItem from="1607392283783" duration="12000" />
       <workItem from="1607406037918" duration="1337000" />
+      <workItem from="1609986002148" duration="1282000" />
+      <workItem from="1610074516018" duration="8920000" />
+      <workItem from="1610093430545" duration="24000" />
+      <workItem from="1610328355901" duration="65000" />
+      <workItem from="1610336128989" duration="20000" />
+      <workItem from="1610336322153" duration="248000" />
+      <workItem from="1610341736359" duration="391000" />
+      <workItem from="1610422923676" duration="20000" />
+      <workItem from="1610695628792" duration="183000" />
+      <workItem from="1610703392077" duration="149000" />
+      <workItem from="1611109213630" duration="15829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97277000" />
+    <option name="totallyTimeSpent" value="124408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49566162" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="npm" order="2" sideWeight="0.503792" side_tool="true" weight="0.17913593" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -269,7 +254,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="运行" order="7" />
+      <window_info anchor="bottom" id="运行" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
@@ -279,18 +264,33 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49566162" visible="true" weight="0.17913593" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" sideWeight="0.503792" side_tool="true" weight="0.17913593" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="运行" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="调试" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/Leexxxxxxxxxxxxxxxx.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCode.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -330,9 +330,6 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCollapse.vue">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/guide/menuTree.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -403,13 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeDialog.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="62" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/guide/Cells.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -450,47 +440,15 @@
     <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeMenuTree.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeLoading.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1614" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/Button.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-256" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeButton.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="45" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="10960" column="13" selection-start-line="10960" selection-start-column="13" selection-end-line="10960" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/Alert.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="580">
-            <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -501,13 +459,163 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/Leexxxxxxxxxxxxxxxx.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/guide/LuckyGrid.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="813">
-            <caret line="465" column="52" selection-start-line="465" selection-start-column="52" selection-end-line="465" selection-end-column="52" />
+          <first_editor relative-caret-position="-2233">
+            <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/InputNumber.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="232">
+            <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vue/hello/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/leeao/vueframe/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/leeao/vue3/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/Button.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeBadge.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeButton.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeAlert.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeInputNumber.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="66" column="16" lean-forward="true" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeDialog.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/leeao/vue_case/[实战]4-购物车_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1354">
+          <caret line="134" column="27" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeTransfer.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="195" column="18" lean-forward="true" selection-start-line="195" selection-start-column="18" selection-end-line="195" selection-end-column="18" />
+          <folding>
+            <element signature="e#4005#6195#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/Transfer.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="625">
+            <caret line="249" column="22" selection-start-line="249" selection-start-column="22" selection-end-line="249" selection-end-column="22" />
+            <folding>
+              <element signature="n#script#0;n#!!top" />
+              <element signature="n#script#0;n#!!top" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/Alert.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="377">
+            <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <folding>
+              <element signature="e#564#997#0" />
+              <element signature="e#998#1201#0" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/Collapse.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="2117">
+            <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
+            <folding>
+              <element signature="e#1094#1953#0" />
+              <element signature="e#1954#2153#0" />
+              <element signature="e#3125#3994#0" />
+              <element signature="e#3995#4192#0" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCollapse.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCollapseItem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
         </state>
       </provider>
     </entry>

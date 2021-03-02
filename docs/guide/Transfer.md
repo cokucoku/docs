@@ -239,7 +239,21 @@ filterable|是否可搜索|Boolean|true,false|false
                 value1: [1,2,3,4,5,16],
                 value2: [8,9,10,11,12,13,14,15],
               }
-          }
+          },
+           watch: {
+                value1: {
+                    immediate: true,
+                    handler(value) {
+                        console.log(value)
+                    }
+                },
+                value2: {
+                    immediate: true,
+                    handler(value) {
+                        console.log(value)
+                    }
+                }
+           }
     }
 </script>
 <style scoped>

@@ -18,13 +18,6 @@ export default {
         }
     },
     watch: {
-        isShow: {
-            immediate: true,
-            handler(value) {
-                value = this.closeable
-
-            }
-        },
         type: {
             immediate: true,
             handler(value) {
