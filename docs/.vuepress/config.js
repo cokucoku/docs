@@ -4,7 +4,10 @@ module.exports = {
     base: '/',
     themeConfig: {
         logo: '/logo.png',
-        nav: [{ text: '组件', link: '/guide/' }, { text: '关于', link: '/about/' }, { text: 'Github', link: 'https://github.com/cokucoku' }],
+        nav: [{text: '组件', link: '/guide/'}, {text: '关于', link: '/about/'}, {
+            text: 'Github',
+            link: 'https://github.com/cokucoku'
+        }],
         sidebar: [{
             title: '组件',
             collapsable: false,
@@ -13,12 +16,13 @@ module.exports = {
                 '/guide/Alert',
                 '/guide/Badge',
                 '/guide/Button',
-                '/guide/Collapse',
-                '/guide/Cells',
                 '/guide/CascadeSelect',
+                '/guide/Cells',
+                '/guide/Collapse',
                 '/guide/Dialog',
-                '/guide/InputNumber',
+                '/guide/DragSort',
                 '/guide/ImgEffect',
+                '/guide/InputNumber',
                 '/guide/LoadImg',
                 '/guide/LuckyGrid',
                 '/guide/menuTree',
@@ -29,6 +33,7 @@ module.exports = {
                 '/guide/Progress',
                 '/guide/Radio',
                 '/guide/Switch',
+                '/guide/ScrollSelect',
                 '/guide/Select',
                 '/guide/Steps',
                 '/guide/TimeLine',

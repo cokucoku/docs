@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1f148097-d4fc-43e5-bf17-006ebdf1fc25" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/LeeAlert.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/LeeAlert.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/LeeCollapse.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/LeeCollapse.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/LeeCollapseItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/LeeCollapseItem.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/LeeTransfer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/LeeTransfer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/Alert.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/Alert.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/Collapse.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/Collapse.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/Transfer.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/Transfer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/LeeButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/LeeButton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/LeeCell.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/LeeCell.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/components/LeeTag.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/components/LeeTag.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/Pay.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/Pay.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,36 +20,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1015">
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeScrollSelect.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="696">
+              <caret line="229" column="21" selection-start-line="229" selection-start-column="21" selection-end-line="229" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCollapseItem.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCollapse.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/guide/Collapse.md">
+        <entry file="file://$PROJECT_DIR$/docs/guide/ScrollSelect.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="2117">
-                <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
-                <folding>
-                  <element signature="e#1094#1953#0" />
-                  <element signature="e#1954#2153#0" />
-                  <element signature="e#3125#3994#0" />
-                  <element signature="e#3995#4192#0" />
-                </folding>
+              <first_editor relative-caret-position="87">
+                <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -67,6 +67,19 @@
       <find>value</find>
       <find>delall</find>
       <find>jg</find>
+      <find>drop_copy</find>
+      <find>el</find>
+      <find>draging</find>
+      <find>abs_y</find>
+      <find>tops</find>
+      <find>index</find>
+      <find>Node</find>
+      <find>parents</find>
+      <find>targetRect</find>
+      <find>year</find>
+      <find>mouse</find>
+      <find>perh</find>
+      <find>date</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -80,8 +93,7 @@
         <option value="$PROJECT_DIR$/docs/guide/Dialog.md" />
         <option value="$PROJECT_DIR$/docs/guide/menuTree.md" />
         <option value="$PROJECT_DIR$/docs/.vuepress/components/LeeCascadeSelect.vue" />
-        <option value="F:/leeao/vue_case/[实战]19-抽奖.html" />
-        <option value="$PROJECT_DIR$/docs/.vuepress/config.js" />
+        <option value="$PROJECT_DIR$/../vue_case/[实战]19-抽奖.html" />
         <option value="$PROJECT_DIR$/docs/.vuepress/components/LuckGrid.vue" />
         <option value="$PROJECT_DIR$/docs/guide/LuckyGrid.md" />
         <option value="$PROJECT_DIR$/docs/.vuepress/components/LeeLuckGrid.vue" />
@@ -93,6 +105,21 @@
         <option value="$PROJECT_DIR$/docs/guide/Alert.md" />
         <option value="$PROJECT_DIR$/docs/.vuepress/components/LeeTransfer.vue" />
         <option value="$PROJECT_DIR$/docs/guide/Transfer.md" />
+        <option value="$PROJECT_DIR$/../mygit/HTML5上传相关/本地图片拖放到区域-FileReader.html" />
+        <option value="$PROJECT_DIR$/../vue_case/[实战]33-菜单拖动排序_无代理ul.html" />
+        <option value="$PROJECT_DIR$/../vue_case/[实战]33-菜单拖动排序.html" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/components/LeeTag.vue" />
+        <option value="$PROJECT_DIR$/../myplugin/js-拖动排序(PC,移动)/sortable.js" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/components/LeeCell.vue" />
+        <option value="$PROJECT_DIR$/docs/guide/DragSort.md" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/components/LeeButton.vue" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/components/LeeDragSort.vue" />
+        <option value="$PROJECT_DIR$/../html_css_js/css/CSS Scroll Snap体验滚动滑块效果.html" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/config.js" />
+        <option value="$PROJECT_DIR$/docs/guide/Pay.md" />
+        <option value="$PROJECT_DIR$/../html_css_js/web api/Element-scrollTo.html" />
+        <option value="$PROJECT_DIR$/docs/guide/ScrollSelect.md" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/components/LeeScrollSelect.vue" />
       </list>
     </option>
   </component>
@@ -155,7 +182,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/leeao/vue3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/.vuepress/components" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -164,6 +191,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\leeao\vuepress\docs\.vuepress\components" />
+      <recent name="F:\leeao\vuepress\docs\guide" />
       <recent name="G:\vuepress\docs\.vuepress\components" />
       <recent name="G:\vuepress\docs\guide" />
     </key>
@@ -233,19 +262,29 @@
       <workItem from="1610695628792" duration="183000" />
       <workItem from="1610703392077" duration="149000" />
       <workItem from="1611109213630" duration="15829000" />
+      <workItem from="1614673106144" duration="2280000" />
+      <workItem from="1614732790432" duration="638000" />
+      <workItem from="1618301376636" duration="2274000" />
+      <workItem from="1618385175511" duration="8884000" />
+      <workItem from="1618448338809" duration="20318000" />
+      <workItem from="1618534216020" duration="28287000" />
+      <workItem from="1618793634552" duration="25110000" />
+      <workItem from="1618880204008" duration="20288000" />
+      <workItem from="1618966853199" duration="29882000" />
+      <workItem from="1619052991076" duration="3065000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124408000" />
+    <option name="totallyTimeSpent" value="265434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49566162" visible="true" weight="0.17913593" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.489154" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.503792" side_tool="true" weight="0.17913593" />
+      <window_info id="npm" order="2" sideWeight="0.51084596" side_tool="true" weight="0.17913593" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -257,7 +296,7 @@
       <window_info anchor="bottom" id="运行" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="调试" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -291,276 +330,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCode.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/Pay.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="148">
-            <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeProgress.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/Progress.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="615">
-            <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/Dialog.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="290">
-            <caret line="19" column="113" selection-start-line="19" selection-start-column="113" selection-end-line="19" selection-end-column="113" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/menuTree.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="813">
-            <caret line="179" column="2" selection-start-line="179" selection-start-column="2" selection-end-line="179" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeMenuItem.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/leeao/vue_case/[实战]19-抽奖.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="166" column="20" selection-start-line="166" selection-start-column="20" selection-end-line="166" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCascadeSelect111.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="85" column="40" lean-forward="true" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/CascadeSelect.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-29" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCascadeSelect.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="76" column="34" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/allcity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/LoadImg.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="203">
-            <caret line="7" column="53" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="53" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/Cells.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-261" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeSelect.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1740" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeTagCloud.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="77" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeOption.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-348">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCells.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-261" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCell.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-696" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeMenuTree.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeLoading.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1614" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="10960" column="13" selection-start-line="10960" selection-start-column="13" selection-end-line="10960" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeLuckGrid.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="130" column="21" lean-forward="true" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/Leexxxxxxxxxxxxxxxx.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/LuckyGrid.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-2233">
-            <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/InputNumber.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="232">
-            <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vue/hello/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://F:/leeao/vueframe/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://F:/leeao/vue3/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/Button.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeBadge.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeButton.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeAlert.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeInputNumber.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="66" column="16" lean-forward="true" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeDialog.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/leeao/vue_case/[实战]4-购物车_new.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1354">
-          <caret line="134" column="27" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeTransfer.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="195" column="18" lean-forward="true" selection-start-line="195" selection-start-column="18" selection-end-line="195" selection-end-column="18" />
-          <folding>
-            <element signature="e#4005#6195#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/guide/Transfer.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -589,6 +358,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://G:/leevueplugin/index.js" />
+    <entry file="file://E:/李光发/mygit/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mygit/HTML5上传相关/本地图片拖放到区域-FileReader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="149" column="29" selection-start-line="149" selection-start-column="29" selection-end-line="149" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCollapseItem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCollapse.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/CascadeSelect.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-725">
+            <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myplugin/js工具框架集/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1495" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myplugin/js-倒计时/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myplugin/js-倒计时/downCount.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-899">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!block;n#dong#0;n#DownCount#0" />
+            <element signature="n#!!block;n#timehtml#0;n#DownCount#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myplugin/js工具框架集/lee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myplugin/js-switch/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-783" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myplugin/js-拖动排序(PC,移动)/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myplugin/js-switch/switch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-754">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/guide/Collapse.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -605,19 +465,262 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCollapse.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="13" />
+    <entry file="file://$PROJECT_DIR$/docs/guide/InputNumber.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="116">
+            <caret line="4" column="101" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="101" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCollapseItem.vue">
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeDialog.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        <state relative-caret-position="145">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeImgEffect.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="111" column="7" lean-forward="true" selection-start-line="111" selection-start-column="7" selection-end-line="116" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vue_case/[实战]33-菜单拖动排序-本地存储.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="e#1652#2635#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vue_case/[实战]33-菜单拖动排序_无代理ul.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeAlert.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeTag.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vue_case/[实战]70滑動刪除.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-710">
+          <caret line="152" column="47" selection-start-line="152" selection-start-column="34" selection-end-line="152" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myplugin/js工具框架集/自定义父节点.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vue_case/[实战]33-菜单拖动排序.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myplugin/js-拖动排序(PC,移动)/sortable - ES5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="90" column="35" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeDragSort_bak.vue" />
+    <entry file="file://$PROJECT_DIR$/../myplugin/js-拖动排序(PC,移动)/sortable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="114" selection-end-column="51" />
+          <folding>
+            <element signature="e#470#675#0" />
+            <element signature="e#730#773#0" />
+            <element signature="n#!!block;n#index#0;n#Sortable#0" />
+            <element signature="n#!!block;n#inAfter#0;n#Sortable#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCells.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-870" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeButton.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="63" column="15" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myplugin/scrollselect/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCell.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeCascadeSelect.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1039">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/DragSort.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-120">
+            <caret line="73" column="10" lean-forward="true" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeePay.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="66" column="4" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="72" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vue_case/玩霸/newstyle/user-info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="467" column="8" selection-start-line="467" selection-start-column="8" selection-end-line="476" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/Pay.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="567">
+            <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="63" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../html_css_js/css/CSS Scroll Snap体验滚动滑块效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../html_css_js/web api/Element-scrollTo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="98" column="12" lean-forward="true" selection-start-line="98" selection-start-column="12" selection-end-line="101" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myplugin/scrollselect/dragselect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="171" column="30" selection-start-line="171" selection-start-column="25" selection-end-line="171" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/Dialog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="339">
+            <caret line="85" selection-start-line="85" selection-end-line="90" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeDragSort.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="981">
+          <caret line="87" column="25" lean-forward="true" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1015">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/ScrollSelect.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="87">
+            <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/dist/.git/config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/dist/CNAME">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/LeeScrollSelect.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="229" column="21" selection-start-line="229" selection-start-column="21" selection-end-line="229" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

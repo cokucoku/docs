@@ -56,8 +56,8 @@ export default {
 .lee-cell {
     cursor: pointer;
     display: flex;
-    padding: 16px 16px 16px 0;
-    width: calc(100% - 16px);
+    padding: 16px;
+    width: 100%;
     border-bottom: solid 1px #dedede;box-sizing: border-box;
     align-items: center
 }
