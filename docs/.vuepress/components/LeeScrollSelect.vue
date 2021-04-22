@@ -48,7 +48,7 @@
               <li></li>
               <li></li>
               <li v-for="(item,xh) in 24" :key="xh" :class="{cur:item===date.hour}">
-                {{item>=10?item<24?item:'00':'0'+item}}
+                {{item>=10?item!=24?item:'00':'0'+item}}
               </li>
             </ul>
             <div class="cus"></div>
@@ -62,7 +62,7 @@
               <li></li>
               <li></li>
               <li v-for="(item,xh) in 60" :key="xh" :class="{cur:item===date.min}">
-                {{item>=10?item<60?item:'00':'0'+item}}
+                {{item>=10?item!=60?item:'00':'0'+item}}
               </li>
             </ul>
             <div class="cus"></div>
@@ -77,7 +77,7 @@
               <li></li>
               <li></li>
               <li v-for="(item,xh) in 60" :key="xh" :class="{cur:item===date.sec}">
-                {{item>=10?item<60?item:'00':'0'+item}}
+                {{item>=10?item!=60?item:'00':'0'+item}}
               </li>
             </ul>
             <div class="cus"></div>
