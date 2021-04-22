@@ -354,7 +354,7 @@ export default {
   position: absolute;
   left: 0;
   bottom: 0;
-  background: -webkit-linear-gradient(#fff,rgba(255,255,255,0) , #fff);
+  background: -webkit-linear-gradient(rgba(255,255,255,1) 5%,rgba(255,255,255,0) , rgba(255,255,255,1) 95%);
   z-index: 44;
 }
 
