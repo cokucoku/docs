@@ -10,9 +10,9 @@ cd docs/.vuepress/dist
 # 如果你是要部署到自定义域名
  echo 'docs.leeao82.com' > 'CNAME'
 
-git init
+#git init
 git add -A
-git commit -m '增加九宫格抽奖'
+git commit -m '增加滑动删除,拖动排序,滚动选择'
 
 # 如果你想要部署到 https://<USERNAME>.github.io
 #git push -f git@github.com:<cokucoku>/<cokucoku>.github.io.git master

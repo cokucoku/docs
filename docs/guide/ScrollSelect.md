@@ -5,7 +5,7 @@
 </lee-scroll-select>
 <div class="leeblock">
     <div class="leesource" style="background: #f0f0f0">     
-     <lee-button type="success" @click="show">日期选择{{date}}</lee-button>     
+     <lee-button type="success" @click="show">日期选择</lee-button>     
     </div>
 <lee-code>
 
@@ -53,8 +53,7 @@ change|选择后回调|data
     export default {
         data() {
               return {
-               kg:false,
-               date:''
+               kg:false
                 
               }
           },    
@@ -63,7 +62,7 @@ change|选择后回调|data
             this.kg=true
             },
             change(data){
-             this.date=data
+             console.log(data)
             }                       
           }
     }

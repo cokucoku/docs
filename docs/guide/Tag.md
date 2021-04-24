@@ -124,7 +124,17 @@ editable|是否可以添加|Boolean|--|false
                 { t: '稳重',color:'#f56c6c' }
                 ]
               }
-          }
+        },
+        watch: {
+            tag2: {
+                immediate: true,
+                handler(value) {
+                 console.log(value)
+                
+                        
+                }
+            }
+       },
     }
 </script>
 <style scoped>

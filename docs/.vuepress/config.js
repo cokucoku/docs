@@ -33,6 +33,7 @@ module.exports = {
                 '/guide/Progress',
                 '/guide/Radio',
                 '/guide/Switch',
+                '/guide/SwiperDelete',
                 '/guide/ScrollSelect',
                 '/guide/Select',
                 '/guide/Steps',

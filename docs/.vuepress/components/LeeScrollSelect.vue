@@ -312,7 +312,7 @@ export default {
                     this.$set(this.posy, 'sec', -(sec - 1) * this.perh)
 
                 } else {
-                    document.body.style.cssText = ""
+                    //document.body.style.cssText = ""
                 }
             }
         }
